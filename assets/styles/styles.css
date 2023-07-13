@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(247, 237, 246);
+	color: whitesmoke;
+}
+
+.titulo {
+	background-color: rebeccapurple;
+  border-radius: 5px;
+}
+
+#llamado {
+	pointer-events: none;
+	text-align: center;
+	background-color: rebeccapurple;
+	color:whitesmoke;
+	margin-top: 50px;
+}
+
+#logo {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+#voto {
+	background-color: #B1ADE1;
+}
+
+.votar {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	background: navy;
+	color: #fff;
+	border-radius: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	transition: .3s ease all;
+}
+
+.votar:hover {
+  background-color: tomato;
+}
+
+.votar:active {
+  transform: translateY(4px);
+}
+
+.paginacion button:hover {
+	background: #137c32;
+}
+
+.poster {
+	cursor: pointer;
+  box-shadow: 3px 2px 1px rebeccapurple;
+}
+
+.poster:active {
+  transform: translateY(3px);
+}
+
+.chart-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh; /* Adjust the height as needed */
+  }
+
+/* #chartContainer {
+} */
+
+#MiGrafica {
+  font-size: x-large;
+  font-weight:900;
+  background-color:whitesmoke;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.paginacion {
+	position: fixed;
+	bottom: 0;
+	background: rebeccapurple;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 3px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	background: navy;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: tomato;
+}
+
+.paginacion button:active {
+  transform: translateY(5px);
+}

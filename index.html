@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/styles/styles.css">
+	<title>Api TMDB</title>
+</head>
+<body>
+	<div class="secciones">
+		<img id="logo" src="assets/images/tmdb.png" width="200" alt="tmdblogo">
+		<img src="assets/images/imdb3.png" width="200"  alt="imdb">
+		<h1 id="llamado">Conoce los últimos estrenos ||▹ Populares hoy 🎬 📊 ⇣ | Su presupuesto 💰 </h1>
+	</div>
+	<br>
+	<br>
+	<div id="chartContainer">
+		<script type="module" src="assets/js/chart.js"></script>
+        <canvas id="MiGrafica"></canvas>
+      </div>
+	  <div class="chart-container">
+		<script type="module" src="assets/js/chart2.js"></script>
+		<canvas id="MiGrafico"></canvas>
+	  </div>
+	  <br>
+	  <br>
+	  <section id="voto">
+		<button class="votar">Vota por tu estreno favorito</button>
+	  </section>
+	  <br>
+	  <br>
+	<div class="contenedor" id="contenedor"></div>
+	</div>
+<div class="paginacion">
+	<button id="btnAnterior">Anterior</button>
+	<button id="btnSiguiente">Siguiente</button>
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="assets/js/app.js"></script>
+		
+</body>
+</html>
