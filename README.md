@@ -4,7 +4,7 @@ Proyecto sobre péliculas, donde los datos son adquiridos a traves de una API TM
 
 # Descripción
 
-Este es un sitio dedicado a los últimos estrenos de la indrustria cinematrografica, con gráficos comparativos para las primeras 5 péliculas más votadas por los usuarios y su presupuesto de producción.
+Este es un sitio dedicado a los últimos estrenos de la indrustria cinematrográfica, con gráficos comparativos para las primeras 5 péliculas más votadas por los usuarios y su presupuesto de producción.
 
 ## Insignias
 
