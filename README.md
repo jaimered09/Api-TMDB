@@ -14,7 +14,6 @@ Este es un sitio dedicado a los últimos estrenos de la indrustria cinematrograf
 
 ## Visuals
 
-![Captura de pantalla]
 
 <img src="assets/images/print1.png" alt="print1">
 <img src="assets/images/print2.png" alt="print2">
