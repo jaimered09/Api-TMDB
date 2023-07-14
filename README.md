@@ -8,7 +8,7 @@ Este es un sitio dedicado a los últimos estrenos de la indrustria cinematrograf
 
 ## Insignias
 
-![Fecha lanzamiento](https://img.shields.io/badge/release%20date-10%15July-green)
+![Fecha lanzamiento](https://img.shields.io/badge/release-date-15July-green)
 ![Versión](https://img.shields.io/badge/versión-1.0-blue)
 ![Creador](https://img.shields.io/badge/build-jaimered09-red)
 
