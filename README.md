@@ -1,6 +1,6 @@
 # ⭐️ Api-TMDB 🎬🎥🍿⭐️
 
-Proyecto sobre péliculas, donde los datos son adquiridos a traves de una API TMDB (www.themoviedb.org) y se ocupan gráficos realizados con los recursos de la librería Chart.js.
+Proyecto sobre películas, donde los datos son adquiridos a través de una API TMDB (www.themoviedb.org) y se ocupan gráficos realizados con los recursos de la librería Chart.js.
 
 # Descripción
 
